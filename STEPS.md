@@ -780,17 +780,17 @@ Finally, let's add the `MacroGrid` component to the home screen. Open `src/app/(
 
 ```ts
 import { globalStyles } from '@/styles/global';
-import { StyleSheet, Text, View } from 'react-native';
-import HomeHeader from '../components/HomeHeader';
+import { StyleSheet, Text, ScrollView } from 'react-native';
+import HomeHeader from '../../components/HomeHeader';
 import MacroGrid from '@/components/MacroGrid';
 
 export default function HomeScreen() {
   return (
-    <View style={globalStyles.container}>
+    <ScrollView style={globalStyles.container}>
       <Text style={globalStyles.title}>MacroZone</Text>
       <HomeHeader />
       <MacroGrid />
-    </View>
+    </ScrollView>
   );
 }
 ```
