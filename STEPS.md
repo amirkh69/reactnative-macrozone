@@ -7,7 +7,7 @@ This file contains the steps and all the code for the React Native Crash Course 
 The project is a simple macro tracking app called MacroZone that allows users to add meals and track their macros (calories, protein, carbs, fat). The app has a home screen that displays the current date, a grid of macro cards showing the total macros for the day, and a list of recent meals. There is also a screen for adding new meals and a screen for viewing all meals.
 
 <p align="center">
-  <img src="assets/screen.png" alt="MacroZone App" width="300" />
+  <img src="screen.png" alt="MacroZone App" width="300" />
 </p>
 
 ## 📑 Table of Contents
